@@ -66,7 +66,7 @@ export default class App extends Component<Props> {
         </View>
         <TouchableOpacity style={styles.button} onPress={this.calcular} ><Text style={styles.buttonText}>Calcular</Text></TouchableOpacity>
         <Text style={styles.resultado}>{this.state.resultado.toFixed(2)}</Text>
-        <Text style={[styles.resultado,{fontSize:35}]}>{this.state.resultadoText}</Text>
+        <Text style={[styles.resultado,{fontSize:25}]}>{this.state.resultadoText}</Text>
 
       </View>
     );
